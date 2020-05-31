@@ -20,21 +20,21 @@ Tested with storj storage node version `v0.35.3`
 ### Docker
 #### Run latest from DockerHub (easiest option, works out of the box provided above is set)
 
-    docker run -d --link=storagenode --name=storj-exporter -p 9651:9651 mkdhia/storj-exporter:latest
+    docker run -d --link=storagenode --name=storj_exporter -p 9651:9651 mkdhia/storj_exporter:latest
     
 #### OR build your own
 Clone this repo and cd, then
 
-    docker build -t storj-exporter .
-    docker run -d --link=storagenode --name=storj-exporter -p 9651:9651 storj-exporter
+    docker build -t storj_exporter .
+    docker run -d --link=storagenode --name=storj_exporter -p 9651:9651 storj_exporter
 
 ### Standalone script
 
-    python3 storj-exporter.py
+    python3 storj_exporter.py
    
 ### Linux Installation
 
-#### Create storj-exporter user for service
+#### Create storj_exporter user for service
 
     useradd --no-create-home --shell /bin/false storj_exporter
 
@@ -45,9 +45,9 @@ Clone this repo and cd, then
     
 #### Move storj_exporter to binary directory
 
-    mv Storj-Exporter/storj-exporter.py /usr/local/bin/
-    chown storj-expoj_exporter:storj_exporter /usr/local/bin/storj-exporter.py
-    chmod +x /usr/local/bin/storj-exporter.py
+    mv Storj-Exporter/storj_exporter.py /usr/local/bin/
+    chown storj-expoj_exporter:storj_exporter /usr/local/bin/storj_exporter.py
+    chmod +x /usr/local/bin/storj_exporter.py
    
 #### Install systemd service and set to start on boot
     

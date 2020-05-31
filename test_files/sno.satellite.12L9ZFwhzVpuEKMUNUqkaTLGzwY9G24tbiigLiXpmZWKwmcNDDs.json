@@ -1,0 +1,202 @@
+{
+  "id": "12L9ZFwhzVpuEKMUNUqkaTLGzwY9G24tbiigLiXpmZWKwmcNDDs",
+  "storageDaily": [
+    {
+      "atRestTotal": 2553788048830.383,
+      "intervalStart": "2020-05-01T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2518033487324.213,
+      "intervalStart": "2020-05-02T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2571890791032.6084,
+      "intervalStart": "2020-05-03T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2605867050917.8164,
+      "intervalStart": "2020-05-04T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2701047574188.2837,
+      "intervalStart": "2020-05-05T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2638648715788.705,
+      "intervalStart": "2020-05-06T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2073856396644.478,
+      "intervalStart": "2020-05-07T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2771270520333.3276,
+      "intervalStart": "2020-05-08T00:00:00Z"
+    },
+    {
+      "atRestTotal": 2774626481272.6045,
+      "intervalStart": "2020-05-09T00:00:00Z"
+    },
+    {
+      "atRestTotal": 1404752646399.77,
+      "intervalStart": "2020-05-10T00:00:00Z"
+    }
+  ],
+  "bandwidthDaily": [
+    {
+      "egress": {
+        "repair": 0,
+        "audit": 6400,
+        "usage": 86146048
+      },
+      "ingress": {
+        "repair": 879096576,
+        "usage": 21936428288
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-01T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 6956800,
+        "audit": 6144,
+        "usage": 54809088
+      },
+      "ingress": {
+        "repair": 549768960,
+        "usage": 31141494016
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-02T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 7954176,
+        "audit": 7680,
+        "usage": 118042624
+      },
+      "ingress": {
+        "repair": 609922560,
+        "usage": 2673056768
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-03T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 23040,
+        "audit": 7936,
+        "usage": 83788288
+      },
+      "ingress": {
+        "repair": 796166144,
+        "usage": 2303685376
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-04T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 10531840,
+        "audit": 18688,
+        "usage": 40434688
+      },
+      "ingress": {
+        "repair": 654057728,
+        "usage": 1182546688
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-05T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 6518272,
+        "audit": 4864,
+        "usage": 2783232
+      },
+      "ingress": {
+        "repair": 362701312,
+        "usage": 664417792
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-06T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 7036672,
+        "audit": 12288,
+        "usage": 2266368
+      },
+      "ingress": {
+        "repair": 500582144,
+        "usage": 465401088
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-07T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 4659712,
+        "audit": 23040,
+        "usage": 365312
+      },
+      "ingress": {
+        "repair": 515049728,
+        "usage": 418757120
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-08T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 8592640,
+        "audit": 24064,
+        "usage": 4775424
+      },
+      "ingress": {
+        "repair": 727818496,
+        "usage": 428275712
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-09T00:00:00Z"
+    },
+    {
+      "egress": {
+        "repair": 4983808,
+        "audit": 10496,
+        "usage": 239563264
+      },
+      "ingress": {
+        "repair": 404834048,
+        "usage": 356787968
+      },
+      "delete": 0,
+      "intervalStart": "2020-05-10T00:00:00Z"
+    }
+  ],
+  "storageSummary": 24613781712732.188,
+  "bandwidthSummary": 68261201408,
+  "egressSummary": 690352896,
+  "ingressSummary": 67570848512,
+  "audit": {
+    "totalCount": 1735,
+    "successCount": 1711,
+    "alpha": 19.99999999999995,
+    "beta": 1.2505237325941136e-15,
+    "score": 1
+  },
+  "uptime": {
+    "totalCount": 3880,
+    "successCount": 3874,
+    "alpha": 0,
+    "beta": 0,
+    "score": 0
+  },
+  "priceModel": {
+    "EgressBandwidth": 2000,
+    "RepairBandwidth": 1000,
+    "AuditBandwidth": 1000,
+    "DiskSpace": 150
+  },
+  "nodeJoinedAt": "2020-02-13T06:59:04.050766Z"
+}

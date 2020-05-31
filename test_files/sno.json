@@ -1,0 +1,57 @@
+{
+  "nodeID": "123456abc",
+  "wallet": "0x677000555",
+  "satellites": [
+    {
+      "id": "118UWpMCHzs6CvSgWd9BfFVjw5K9pZbJjkfZJexMtSkmKxvvAW",
+      "url": "satellite.stefan-benten.de:7777",
+      "disqualified": null,
+      "suspended": null
+    },
+    {
+      "id": "1wFTAgs9DP5RSnCqKV1eLf6N9wtk4EAtmN5DpSxcs8EjT69tGE",
+      "url": "saltlake.tardigrade.io:7777",
+      "disqualified": null,
+      "suspended": null
+    },
+    {
+      "id": "121RTSDpyNZVcEU84Ticf2L1ntiuUimbWgfATz21tuvgk3vzoA6",
+      "url": "asia-east-1.tardigrade.io:7777",
+      "disqualified": null,
+      "suspended": null
+    },
+    {
+      "id": "12EayRS2V1kEsWESU9QMRseFhdxYxKicsiFmxrsLZHeLUtdps3S",
+      "url": "us-central-1.tardigrade.io:7777",
+      "disqualified": null,
+      "suspended": null
+    },
+    {
+      "id": "12L9ZFwhzVpuEKMUNUqkaTLGzwY9G24tbiigLiXpmZWKwmcNDDs",
+      "url": "europe-west-1.tardigrade.io:7777",
+      "disqualified": null,
+      "suspended": null
+    },
+    {
+      "id": "12rfG3sh9NCWiX3ivPjq2HtdLmbqCrvHVEzJubnzFzosMuawymB",
+      "url": "europe-north-1.tardigrade.io:7777",
+      "disqualified": null,
+      "suspended": null
+    }
+  ],
+  "diskSpace": {
+    "used": 2710000000000,
+    "available": 4000000000000
+  },
+  "bandwidth": {
+    "used": 1000000000000,
+    "available": 0
+  },
+  "lastPinged": "2020-05-10T15:30:00.123456789Z",
+  "lastPingFromID": "1111111111111111111111111111111112m1s9K",
+  "lastPingFromAddress": "",
+  "version": "1.3.3",
+  "allowedVersion": "1.1.0",
+  "upToDate": true,
+  "startedAt": "2020-05-09T21:10:00.123456789Z"
+}

@@ -1,2 +1,4 @@
 requests
+responses
 prometheus_client
+pytest
