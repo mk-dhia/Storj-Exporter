@@ -58,7 +58,7 @@ class StorjCollector(object):
     self.satellites = self.get_satellites()
     self.sat_data = self.get_sat_data()
 
-    for key in ['nodeID','wallet','lastPinged','lastPingFromID','lastPingFromAddress','upToDate']:
+    for key in ['nodeID','wallet','lastPinged','upToDate']:
       value = str(self.data[key])
       metric = InfoMetricFamily("storj_" + key, "Storj " + key, value={key : value})
       yield metric
